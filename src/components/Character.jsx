@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-export default function UserList() {
+export default function Character() {
     const [characters, setCharacters] = useState([]);
     const [loading, setLoading] = useState(true);
 

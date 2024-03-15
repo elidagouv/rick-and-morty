@@ -1,12 +1,12 @@
 import './App.css'
-import UserList from './components/UserList';
+import Character from './components/Character';
 
 function App() {
 
   return (
     <>
     <div>
-      <UserList></UserList>
+      <Character></Character>
     </div>
     </>
   )
